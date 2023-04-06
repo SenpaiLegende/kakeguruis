@@ -1,0 +1,23 @@
+{
+  "data": null,
+  "errors": [
+    {
+      "message": "validation",
+      "status": 400,
+      "locations": [
+        {
+          "line": 2,
+          "column": 3
+        }
+      ],
+      "validation": {
+        "id": [
+          "The selected id is invalid."
+        ],
+        "score": [
+          "The score may not be greater than 100."
+        ]
+      }
+    }
+  ]
+}

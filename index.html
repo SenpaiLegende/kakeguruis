@@ -1,0 +1,101 @@
+<html lang="de" dir="ltr"><head>
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+          <link rel="stylesheet" href="https://www.w3schools.com/lib/w3.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+        <title>Home | REDD</title>
+        <nav class="navbar">
+            <div class="content">
+
+              <div class="logo">
+                <a class="icon-color" href="index"> REDD | </a><a class="Status" href="#">| Home</a>
+              </div>
+              <ul class="menu-list">
+                <div class="icon cancel-btn">
+                  <i class="fas fa-times"></i>
+                </div>
+                <li><a href="index">Home 🏠</a></li>
+                <li><a href="überuns">Infos 🩸</a></li>
+                <li><a href="aniliste">Chat 💬</a></li>
+                <li class="discord-join1"><a href="#">login 🎲</a></li>
+              </ul>
+              <div class="icon menu-btn">
+                <i class="fas fa-bars"></i>
+              </div>
+            </div>              
+          </nav>
+          <script>
+            const body = document.querySelector("body");
+            const navbar = document.querySelector(".navbar");
+            const menuBtn = document.querySelector(".menu-btn");
+            const cancelBtn = document.querySelector(".cancel-btn");
+            menuBtn.onclick = ()=>{
+              navbar.classList.add("show");
+              menuBtn.classList.add("hide");
+              body.classList.add("disabled");
+            }
+            cancelBtn.onclick = ()=>{
+              body.classList.remove("disabled");
+              navbar.classList.remove("show");
+              menuBtn.classList.remove("hide");
+            }
+            window.onscroll = ()=>{
+              this.scrollY > 20 ? navbar.classList.add("sticky") : navbar.classList.remove("sticky");
+            }
+          </script>
+        <script>
+
+            $(window).scroll(function(){
+                if($(window).scrollTop()){
+                    $('header').addClass("black");
+                }
+
+                else{
+                    $('header').removeClass("black");
+                }
+            })
+
+
+        </script>
+    </header>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/scrollbar.css">
+    <link rel="stylesheet" href="/css/navbar.css">
+    <link rel="stylesheet" href="/css/hover.css">
+    <link rel="stylesheet" href="/css/style2.css">
+    <link rel="stylesheet" href="/css/footer.csss">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="/js/main.js"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&amp;display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" </head>
+    <img class="ServeIcon" src="/media/Icon.gif" alt="ServeIconIndex">
+
+	<style>
+		body {
+			background-color: #1b1b1b;
+			background-size: cover;
+		}
+	</style>
+
+<script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+<div class="willkommen-text" style="opacity: 1;">REDD DESERT</div>
+        <script>
+            $(window).scroll(function(){
+                $(".willkommen-text").css("opacity", 1 -$ (window).scrollTop() / 250);
+            });
+        </script>
+                <script>
+                    $(window).scroll(function(){
+                        $(".text-main").css("opacity", 1 -$ (window).scrollTop() / 250);
+                    });
+                </script>
+        <div class="mobile-container"></div>
+
+
+    <div id="particles-js111"></div> 
+    <button href="" class="casino-button">Discord</button>
+    
+
+</body><div id="detach-button-host" style="top: 0px; left: 942px;"></div></html>

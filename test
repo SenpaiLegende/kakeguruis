@@ -1,0 +1,44 @@
+  <kbd>uwu</kbd>
+
+
+  <div class="info233" style="opacity: 1;">SERVER INFORMATIONEN</div>
+
+
+
+
+
+
+
+
+
+
+
+  .down-menu {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 12px 20px;
+    border: 2px solid #000000;
+    background-color: #000000;
+    color: #ea2b2b;
+    border-radius: 6px;
+    transition: all 0.3s ease-in-out;
+    position: absolute;
+    top: 54%;
+    right: 16%;
+    left:  41%;
+    width: 40%;
+  }
+  .down-menu:hover {
+    background-color: #1b1b1b;
+    color: #ffffff;
+    box-shadow: 0px 0px 10px #000000;
+  }
+
+
+
+
+  </div>
+  <div id="more" class="collapse">
+    <kbd class="ew1">Du kannst bestimmte Rollen kriegen durch Reaktions Rollen dem Casino Bot & Level</kbd>          
+    </div>
+</body>

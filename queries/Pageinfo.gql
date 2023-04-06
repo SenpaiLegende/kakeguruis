@@ -1,0 +1,30 @@
+{
+  Media {
+    characters(page: 1, perPage: 10) {
+      pageInfo {
+        total
+        perPage
+        currentPage
+        lastPage
+        hasNextPage
+      }
+      edges {
+        node { # The character data node
+          id
+          name {
+            first
+            last
+          }
+        }
+        role
+        voiceActors (language: JAPANESE) { # Array of voice actors of this character for the anime
+          id
+          name {
+            first
+            last
+          }
+        }
+      }
+    }
+  }
+}

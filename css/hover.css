@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+.discord-join1 {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .searchbtn {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    font-family: Mali;
+  }
+  
+  .searchbtn:hover .dropdown-content {
+    display: block;
+  }

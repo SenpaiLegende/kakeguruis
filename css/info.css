@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Mali:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap');
+.container-lg{
+    size: 768px;
+}
+.p{
+    color: beige;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 100%;
+    font-style: normal;
+}
+.testi{
+    color: beige;
+}
+.h1{
+    color: beige;
+}
+.h2{
+    color: beige;
+}
+.h3{
+    color: beige;
+}
+.h4{
+    color: beige;
+}
+.h5{
+    color: beige;
+}
+.infos1{
+    color: aliceblue;
+    position: relative;
+    width: 90%;
+    top: 2px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.info233{
+    color: aliceblue;
+}
+.container-fluid{
+    position: fixed;
+    top: 30%;
+}
+.uwuwuw{
+    color: rgb(192, 169, 169);
+    position: relative;
+    width: 90%;
+    top: 4px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+.collapse{
+    color: aliceblue;
+  }
+.ew1{
+    color: aliceblue;
+    position: relative;
+    width: 80%;
+    top: 2px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.testmedia{
+    color: aliceblue;
+    position: relative;
+    width: 10%;
+    top: 0%;
+}
+.button1{
+    position: relative;
+    width: 10%;
+    font-size: 80%;
+}
